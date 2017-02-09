@@ -1,7 +1,7 @@
 <?php
 namespace Franzose\ClosureTable\Models;
 
-use DB;
+use Illuminate\Database\Capsule\Manager as DB;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Franzose\ClosureTable\Contracts\ClosureTableInterface;
 
